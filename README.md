@@ -55,6 +55,7 @@
     
     git fetch --all // git fetch 指令是下载远程仓库最新内容，不做合并
     git reset --hard origin/master // git reset 指令把HEAD指向master最新版本
+    git pull origin master // git pull 命令用于从远程获取代码并合并本地的版本,git pull 其实就是 git fetch 和 git merge FETCH_HEAD 的简写
 
 ### Common Requirement  
 >   查看文件相关提交历史

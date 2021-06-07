@@ -56,7 +56,8 @@
     git reset --hard origin/master // 把HEAD指向master最新版本  
     git pull // 拉下最新分支  
     git pull origin master // 从远程获取代码并合并本地的版本, git fetch和git merge  
-
+    
+    git config --global core.editor vim // 将git commit的默认编辑器从nano转为vim  
 ### Requirements  
 >   查看文件相关提交历史
 > 
